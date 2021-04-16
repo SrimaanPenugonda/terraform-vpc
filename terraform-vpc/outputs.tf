@@ -18,3 +18,11 @@ output "VPC_ID" {
 output "VPC_CIDR" {
   value = aws_vpc.main.cidr_block
 }
+
+output "DEFAULT_VPC_ID" {
+  value = var.DEFAULT_VPC_ID
+}
+
+output "DEFAULT_VPC_CIDR" {
+  value = var.DEFAULT_VPC_CIDR
+}
