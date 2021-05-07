@@ -6,6 +6,8 @@ run - sh svc.sh install
       sh svc.sh start
 this will start the self agent
 
+ax3f6xumjn64fgqdv2pj3iputsv7w4mzlc6u7djj3ihc7oltpgda
+
 now create pipeline and add agent job using self hosted one (default) which has our agent in agent pool
 
 now link the gihub repos into artifacts - click on edit pipeline -add arttifact - link the github and give repo
