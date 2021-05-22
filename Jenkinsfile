@@ -8,8 +8,7 @@ pipeline{
     stages{
         stage('Terraform Apply'){
           steps{
-            sh '''
-              yum install make -y  
+            sh ''' 
               make dev-init
               make dev-apply  
             '''
