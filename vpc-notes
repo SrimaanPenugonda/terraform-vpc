@@ -39,10 +39,8 @@ now create a release
 
     An Internet Gateway (IGW) allows resources within your VPC to access the internet, and vice versa.
     In order for this to happen, there needs to be a routing table entry allowing a subnet to access the IGW.
-    That is to say - an IGW allows resources within your public subnet to access the internet,and the internet
-    to access said resources.
+    That is to say - an IGW allows resources within your public subnet to access the internet,and the internet to access said resources.
     A NAT Gateway does something similar, but with two main differences:
-        It allows resources in a private subnet to access the internet (think yum updates, external database connections
-        , wget calls, etc), and it only works one way.
+        It allows resources in a private subnet to access the internet (think yum updates, external database connections, wget calls, etc), and it only works one way.
    The internet at large cannot get through your NAT to your private resources unless you explicitly allow it.
 7.create private and public route tables
